@@ -17,5 +17,5 @@ I also like to play Table Tennis! (Timo Boll is my favourite player). If you hap
 Some of my pencil sketches are here below!!!!!
 <p>
 <img src="https://percyjackson9.github.io/paintings/0001 (2).jpg" style="float: left; height: 200px;"/>
-<img src="https://percyjackson9.github.io/image/profile.png" style="float: left; height: 200px;"/>
+<img src="https://percyjackson9.github.io/images/profile.png" style="float: left; height: 200px;"/>
 </p>
