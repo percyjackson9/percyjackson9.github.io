@@ -15,5 +15,7 @@ Apart from academics, I am passionate about singing and painting. I did my eleme
 I also like to play Table Tennis! (Timo Boll is my favourite player). If you happen to be around ASU, and want to play a game or two, definitely let me know!
 
 Some of my pencil sketches are here below!!!!!
-
+<p>
 <img src="https://percyjackson9.github.io/paintings/0001 (2).jpg" style="float: left; height: 200px;"/>
+<img src="https://percyjackson9.github.io/image/profile.png" style="float: left; height: 200px;"/>
+</p>
