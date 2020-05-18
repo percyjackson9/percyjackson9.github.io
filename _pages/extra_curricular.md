@@ -18,5 +18,5 @@ Some of my pencil sketches are here below!!!!!
 <p>
   <img src="https://percyjackson9.github.io/paintings/Durga Thakur.jpg" style="float: left; height: 200px;"/>
   <img src="https://percyjackson9.github.io/paintings/Emma Watson.jpg" style="float: left; height: 200px;"/>
-  <img src="https://percyjackson9.github.io/paintings/Goku.jpg" style="float: left; height: 200px;"/>
+  <img src="https://percyjackson9.github.io/paintings/Goku.jpeg" style="float: left; height: 200px;"/>
 </p>
