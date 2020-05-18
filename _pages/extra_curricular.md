@@ -13,3 +13,9 @@ Apart from academics, I am passionate about singing and painting. I did my eleme
 <u><a href="https://www.youtube.com/watch?v=rgapQ-iJ04I" rel="permalink"> Youtube: Shree Ganeshay Dheemahi performance</a></u>  
 
 I also like to play Table Tennis! (Timo Boll is my favourite player). If you happen to be around ASU, and want to play a game or two, definitely let me know!
+
+Some of my pencil sketches are here below!
+<img src="bio-photo.png"
+     alt="Markdown Monster icon"
+     url="https://github.com/percyjackson9/percyjackson9.github.io/tree/master/images/"
+     style="float: left; margin-right: 10px;" />
