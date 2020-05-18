@@ -7,6 +7,8 @@
    ========================================================================== */
 
 .sidebar {
+  display: inline; /* try 2*/
+  border-collapse: collapse; /*try 3*/
   padding-bottom: 20em; /* try */
   background-color: $page-sidebar;
   -webkit-transform: translate3d(0, 0 , 0);
