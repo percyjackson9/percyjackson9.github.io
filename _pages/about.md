@@ -30,9 +30,9 @@ h2:hover .b{
 
 <h1>The visibility Property</h1>
 
-<h2 class="a">This heading is visible</h2>
+<h2 class="a">This is visible</h2>
 
-<h2 class="b">This heading is hidden</h2>
+<h2 class="b">This  is hidden</h2>
 
 <p>Notice that the hidden heading still takes up space on the page.</p>
 
