@@ -15,10 +15,17 @@ h2.a {
 }
 
 h2.b {
+  height:100px;
+  width:100px;
+  color=white;
   visibility: hidden;
 }
+h2:hover b{
+  width: 200px;
+  visibility: visible;
+}
 </style>
-</head>
+
 <body>
 
 <h1>The visibility Property</h1>
