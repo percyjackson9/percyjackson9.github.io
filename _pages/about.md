@@ -20,7 +20,7 @@ h2.b {
   color=white;
   visibility: hidden;
 }
-h2:hover b{
+h2:hover .b{
   width: 200px;
   visibility: visible;
 }
