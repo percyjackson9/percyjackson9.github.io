@@ -17,7 +17,7 @@ h2.a {
 h2.b {
   height:100px;
   width:100px;
-  color=white;
+  background=$primary-color;
   visibility: hidden;
 }
 h2:hover .b{
