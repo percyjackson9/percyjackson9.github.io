@@ -99,6 +99,9 @@ Teaching
 
 Graduate Coursework (some selected)
 ======
+* Fall 2020
+  * Combinatorial Algorithms and Intractability (CSE 550))
+  * Statistical Learning for Data Mining (IEE 520)
 * Spring 2020
   * Modeling with Game Theory (AML 591)
   * Bio-inspired AI and Optimization (IEE 598)
