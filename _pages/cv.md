@@ -63,11 +63,10 @@ Experience
 
 .content {
   padding: 0 18px;
-  display: none;
-  overflow: hidden;
   max-height: 0;
-  transition: max-height 0.4s ease-out;
-  /*background-color: #f1f1f1;*/
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
 }
 </style>
 </head>
