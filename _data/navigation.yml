@@ -25,6 +25,9 @@ main:
     
   - title: "Extra Curriculars"
     url: /extrac/
+    
+  - title: "Testing"
+    url: /test/
   
   #- title: "Guide"
   #  url: /markdown/
