@@ -47,7 +47,7 @@ Experience
 <style>
 .collapsible {
   background-color: $primary-background;
-  color: white;
+  color: $primary-color;
   cursor: pointer;
   padding: 18px;
   width: 100%;
