@@ -63,10 +63,10 @@ Experience
 
 .content {
   padding: 0 18px;
-  max-height: 100%;
+  max-height: 0;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  transition: max-height 0.4s ease-out;
+  background-color: $primary-background;
 }
 </style>
 </head>
@@ -100,11 +100,11 @@ for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
     } else {
-      content.style.display = "block";
-    }
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
   });
 }
 </script>
