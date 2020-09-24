@@ -59,8 +59,7 @@ Experience
 }
 
 .active, .collapsible:hover {
-  background-color: mix(#fff, $primary-background, 25%);
-  text-decoration: underline;
+  background-color: $primary-background;
 }
 
 .content {
