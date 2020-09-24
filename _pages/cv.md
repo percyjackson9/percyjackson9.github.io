@@ -65,6 +65,7 @@ Experience
   padding: 0 18px;
   display: none;
   overflow: hidden;
+  max-height: 0;
   transition: max-height 0.4s ease-out;
   background-color: #f1f1f1;
 }
