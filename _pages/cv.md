@@ -46,7 +46,7 @@ Experience
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 .collapsible {
-  background-color: $primary-background;
+<!--   background-color: $primary-background; -->
   color: $primary-color;
   cursor: pointer;
   padding: 18px;
@@ -59,7 +59,7 @@ Experience
 }
 
 .active, .collapsible:hover {
-  background-color: $primary-background;
+  <!--background-color: $primary-background;-->
 }
 
 .content {
