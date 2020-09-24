@@ -71,7 +71,7 @@ Experience
 </head>
 <body>
 
-<h2>Collapsibles</h2>
+<h1>Collapsibles</h1>
 
 <p>A Collapsible:</p>
 <button type="button" class="collapsible">Open Collapsible</button>
