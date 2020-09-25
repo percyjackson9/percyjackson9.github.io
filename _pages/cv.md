@@ -114,7 +114,7 @@ for (i = 0; i < coll.length; i++) {
 
 
 
-<!--
+<!---
 Publications
 ======
 **Book Chapters**
@@ -124,7 +124,7 @@ Publications
     {% endif %}
   {% endfor %}</ol>
 -->
-<!--
+<!---
 **Journal Articles**
   <ol type="1">{% for post in site.publications reversed %}
     {% if post.artag == "journal" %}
