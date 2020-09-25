@@ -46,7 +46,7 @@ Experience
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 .collapsible {
-  background-color: $masthead-header;
+  background-color: $primary-background;
   color: $primary-color;
   cursor: pointer;
   padding: 18px;
@@ -64,7 +64,7 @@ Experience
 }
 
 .active, .collapsible:hover {
-  background-color: $masthead-header;
+  background-color: $primary-background;
 }
 
 .content {
@@ -78,8 +78,8 @@ Experience
 </head>
 <body>
 
-<h1>Publications</h1>
-
+<button type="button" class="collapsible"><h1>Publications</h1></button>
+<div class="content">
 <button type="button" class="collapsible"><b>Book Chapters</b></button>
 <div class="content">
   <ol type="1">{% for post in site.publications reversed %}
@@ -96,6 +96,7 @@ Experience
       {% include archive-single-cv.html %}
     {% endif %}
   {% endfor %}</ol>
+</div>
 </div>
 
 <script>
