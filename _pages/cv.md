@@ -112,26 +112,6 @@ for (i = 0; i < coll.length; i++) {
 </body>
 
 
-
-
-<!---
-Publications
-======
-**Book Chapters**
-  <ol type="1">{% for post in site.publications reversed %}
-    {% if post.artag == "book" %}
-      {% include archive-single-cv.html %}
-    {% endif %}
-  {% endfor %}</ol>
--->
-<!---
-**Journal Articles**
-  <ol type="1">{% for post in site.publications reversed %}
-    {% if post.artag == "journal" %}
-      {% include archive-single-cv.html %}
-    {% endif %}
-  {% endfor %}</ol>
--->
  
 Awards & Honours
 ======
