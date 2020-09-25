@@ -67,6 +67,18 @@ Experience
   background-color: $primary-background;
 }
 
+.collapsible:after {
+  content: '\02795'; 
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; 
+}
+
 .content {
   padding: 0 18px;
   max-height: 0;
@@ -78,8 +90,7 @@ Experience
 </head>
 <body>
 
-<button type="button" class="collapsible"><h1>Publications</h1></button>
-<div class="content">
+<h1>Publications</h1>
 <button type="button" class="collapsible"><b>Book Chapters</b></button>
 <div class="content">
   <ol type="1">{% for post in site.publications reversed %}
@@ -96,7 +107,6 @@ Experience
       {% include archive-single-cv.html %}
     {% endif %}
   {% endfor %}</ol>
-</div>
 </div>
 
 <script>
