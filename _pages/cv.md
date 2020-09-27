@@ -68,9 +68,9 @@ Experience
 .collapsible:after {
   content: '\02C3'; 
   font-size: 10px;
-  color: white;
+  color: $primary-color;
   float: left;
-  margin-left: 5px;
+  margin-left: 30px;
 }
 
 .active:after {
