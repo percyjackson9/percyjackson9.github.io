@@ -57,7 +57,7 @@ Experience
   border-top: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 5px;
   font-family: $global-font-family;
 }
 
