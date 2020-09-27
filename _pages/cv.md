@@ -126,6 +126,7 @@ for (i = 0; i < coll.length; i++) {
 
 
  
+ 
 Awards & Honours
 ======
 * Recipient of **CIDSE Doctoral Fellowship** (Summer 2020)
