@@ -62,7 +62,7 @@ Experience
 }
   
 .collapsible .collapsible {
-  margin: 0;
+  margin: 5px;
 }
 
 .active, .collapsible:hover {
