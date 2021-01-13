@@ -13,12 +13,24 @@ For a PDF copy of my CV, <u><a href="https://percyjackson9.github.io/files/my_cv
 
 Education
 ======
+* **Arizona State University**, Tempe, USA.
+  * **Doctor of Philosophy**, in Industrial Engineering, 2023 (expected)
+    * GPA: 3.93/4 (till Fall 2020)
+    * Topic: Large scale optimization of network models using combinatorial algorithms.
+  * **Master of Science**, in Industrial Engineering, 2020
+    * GPA: 3.92/4
+* **Jadavpur University**, Kolkata, INDIA.
+  * **Bachelor of Engineering**, in Production Engineering, 2018
+    * GPA : 8.96/10 (absolute scale) First Class with Honours.
+    * Thesis: A hybrid multi-criteria approach to optimal coal blending.
+  
+<!--
 * **Doctor of Philosophy**, in Industrial Engineering, Arizona State University, 2023 (expected)
   * GPA: 3.92/4 (till Spring 2020)
   * Topic: Large scale optimization of network models using combinatorial algorithms.
 * **Bachelor of Engineering**, in Production Engineering, Jadavpur University, 2018
   * GPA : 8.96/10 (absolute scale) First Class with Honours.
-  * Thesis: A hybrid multi-criteria approach to optimal coal blending.
+  * Thesis: A hybrid multi-criteria approach to optimal coal blending. -->
 
 Experience
 ======
@@ -177,6 +189,9 @@ Teaching
 
 Graduate Coursework (some selected)
 ======
+* Spring 2021
+  * Computational Statistics (STP 540)
+  * Reliability Engineering (IEE 572)
 * Fall 2020
   * Combinatorial Algorithms and Intractability (CSE 550))
   * Statistical Learning for Data Mining (IEE 520)
