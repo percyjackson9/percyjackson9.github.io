@@ -91,26 +91,28 @@ Experience
 </head>
 <body>
 
-<button type="button" class="collapsible"><h1>Publications</h1></button>
+Publications
+======
+<!--<button type="button" class="collapsible"><h1>Publications</h1></button>
+<div class="content">-->
+<button type="button" class="collapsible"><b>Book Chapters</b></button>
 <div class="content">
-  <button type="button" class="collapsible"><b>Book Chapters</b></button>
-  <div class="content">
-    <ol type="1">{% for post in site.publications reversed %}
-      {% if post.artag == "book" %}
-        {% include archive-single-cv.html %}
-      {% endif %}
-    {% endfor %}</ol>
-  </div>
-
-  <button type="button" class="collapsible"><b>Journal Articles</b></button>
-  <div class="content">
-    <ol type="1">{% for post in site.publications reversed %}
-      {% if post.artag == "journal" %}
-        {% include archive-single-cv.html %}
-      {% endif %}
-    {% endfor %}</ol>
-  </div>
+  <ol type="1">{% for post in site.publications reversed %}
+    {% if post.artag == "book" %}
+      {% include archive-single-cv.html %}
+    {% endif %}
+  {% endfor %}</ol>
 </div>
+
+<button type="button" class="collapsible"><b>Journal Articles</b></button>
+<div class="content">
+  <ol type="1">{% for post in site.publications reversed %}
+    {% if post.artag == "journal" %}
+      {% include archive-single-cv.html %}
+    {% endif %}
+  {% endfor %}</ol>
+</div>
+<!--</div>-->
 <script>
 var coll = document.getElementsByClassName("collapsible");
 var i;
