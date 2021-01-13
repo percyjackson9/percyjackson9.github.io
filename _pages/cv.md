@@ -89,10 +89,11 @@ Experience
 }
 </style>
 </head>
-<body>
+
 
 Publications
 ======
+<body>
 <!--<button type="button" class="collapsible"><h1>Publications</h1></button>
 <div class="content">-->
 <button type="button" class="collapsible"><b>Book Chapters</b></button>
