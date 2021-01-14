@@ -118,7 +118,7 @@ Publications
   {% endfor %}</ol>
 </div>
 
-<button type="button" class="collapsible"><b>Journal Articles</b></button>
+<button type="button" class="collapsible"><b><i class='fas fa-copy' style='font-size:12px'></i> Journal Articles</b></button>
 <div class="content">
   <ol type="1">{% for post in site.publications reversed %}
     {% if post.artag == "journal" %}
