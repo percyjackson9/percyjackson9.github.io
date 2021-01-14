@@ -109,7 +109,7 @@ Publications
 <body>
 <!--<button type="button" class="collapsible"><h1>Publications</h1></button>
 <div class="content">-->
-<button type="button" class="collapsible"><b><i class='fas fa-book-open' style='font-size:24px'></i>Book Chapters</b></button>
+<button type="button" class="collapsible"><b><i class='fas fa-book-open' style='font-size:12px'></i> Book Chapters</b></button>
 <div class="content">
   <ol type="1">{% for post in site.publications reversed %}
     {% if post.artag == "book" %}
