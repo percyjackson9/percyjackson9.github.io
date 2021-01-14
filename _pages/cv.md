@@ -56,14 +56,15 @@ Experience
 
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+ <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <style>
 .collapsible {
   background-color: #d6d6f7;
   color: $primary-color;
   cursor: pointer;
-  padding: 18px;
+  padding: 10px;
   width: 100%;
-  border-bottom: solid;
+  border-bottom: none;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -78,18 +79,18 @@ Experience
 }
 
 .active, .collapsible:hover {
-  background-color: #d6d6f7;
+  background-color: #bebee6;
 }
 
 .collapsible:after {
-  content: '\02C3'; 
+  content: '\2B17'; 
   font-size: 20px;
   color: $primary-color;
   margin-left: 5px;
 }
 
 .active:after {
-  content: "\02C5"; 
+  content: "\2B19"; 
 }
 
 .content {
@@ -108,7 +109,7 @@ Publications
 <body>
 <!--<button type="button" class="collapsible"><h1>Publications</h1></button>
 <div class="content">-->
-<button type="button" class="collapsible"><b>Book Chapters</b></button>
+<button type="button" class="collapsible"><b><i class='fas fa-book-open' style='font-size:24px'></i>Book Chapters</b></button>
 <div class="content">
   <ol type="1">{% for post in site.publications reversed %}
     {% if post.artag == "book" %}
