@@ -22,6 +22,7 @@ Recent Developments:
     {% elsif post.title == "Internship" %}
       <p>{{post.date }} (Internship): <i>{{ post.excerpt }}</i></p>
     {% else %}
+      <p>Correct error!</p>
     {% endif %}
   {% endfor %}
   </ol>
