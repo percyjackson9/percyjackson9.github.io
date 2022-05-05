@@ -18,9 +18,9 @@ Recent Developments:
   <ol type="1">
   {% for post in site.news reversed %}
     {% if post.title == "Conference" %}
-      <p>{{post.date }} (Conference): <i>{{ post.excerpt }}</i></p>
+    <p><b>({{post.day}}, {{post.month}} {{post.year}}) (Conference):</b> <i>{{ post.excerpt }}</i></p>
     {% elsif post.title == "Internship" %}
-      <p>{{post.date }} (Internship): <i>{{ post.excerpt }}</i></p>
+    <p><b>({{post.day}}, {{post.month}} {{post.year}}) (Internship):</b> <i>{{ post.excerpt }}</i></p>
     {% else %}
       <p>Correct error!</p>
     {% endif %}
