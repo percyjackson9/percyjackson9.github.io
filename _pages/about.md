@@ -20,6 +20,8 @@ Recent Developments:
       <p>{{post.date }} (Conference): <i>{{ post.excerpt }}</i></p>
     {% elsif post.title == "Internship" %}
       <p>{{post.date }} (Internship): <i>{{ post.excerpt }}</i></p>
+    {% else %}
+    {% endif %}
   {% endfor %}
   </ol>
 </body>
