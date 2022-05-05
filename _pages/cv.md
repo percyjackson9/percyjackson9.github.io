@@ -1,0 +1,234 @@
+---
+layout: archive
+title: "Curriculum Vitae"
+permalink: /cv/
+author_profile: true
+redirect_from:
+  - /resume
+---
+
+{% include base_path %}
+
+For a PDF copy of my CV, <u><a href="https://percyjackson9.github.io/files/Current Targeted CV 2.pdf">click here</a></u>  
+
+Education
+======
+* **Arizona State University**, Tempe, USA.
+  * **Doctor of Philosophy**, in Industrial Engineering, 2023 (expected)
+    * GPA: 4.00/4 (till Spring 2022)
+    * Topic: Large scale optimization of network models using combinatorial algorithms.
+  * **Master of Science**, in Industrial Engineering, 2020
+    * GPA: 3.92/4
+* **Jadavpur University**, Kolkata, INDIA.
+  * **Bachelor of Engineering**, in Production Engineering, 2018
+    * GPA : 8.96/10 (absolute scale) First Class with Honours.
+    * Thesis: A hybrid multi-criteria approach to optimal coal blending.
+  
+<!--
+* **Doctor of Philosophy**, in Industrial Engineering, Arizona State University, 2023 (expected)
+  * GPA: 3.92/4 (till Spring 2020)
+  * Topic: Large scale optimization of network models using combinatorial algorithms.
+* **Bachelor of Engineering**, in Production Engineering, Jadavpur University, 2018
+  * GPA : 8.96/10 (absolute scale) First Class with Honours.
+  * Thesis: A hybrid multi-criteria approach to optimal coal blending. -->
+
+Experience
+======
+* **Graduate Researcher**, (May 2019 - present)
+  * _Department of Industrial Engineering, Arizona State University, USA._
+    * Topics: Large scale optimization of network models using combinatorial algorithms.
+    * Advisor: Dr. Jorge Sefair.
+* **Summer Research Intern**, (May 2017 - July 2017)
+  * _Non-oxide Ceramics and Composites Division, CSIR - Central Glass and Ceramic Research Institute, INDIA._
+    * Project: Study of machinability of sintered alumina and analysis using Grey-Fuzzy logic.
+    * Advisor: Dr. Dipayan Sanyal (email: dsanyal@cgcri.res.in)
+* **Undergraduate Researcher** (Aug 2015 - Aug 2018)
+  * _Department of Production Engineering, Jadavpur University, INDIA._
+    * Topics: Modelling and optimisation of advanced machining processes, applications of decision making techniques.
+    * Advisor: Dr. Shankar Chakraborty (email: s_chakraborty00@yahoo.co.in)
+  * _Department of Mechanical Engineering, Netaji Subhas Engineering College, INDIA._
+    * Topics: Optimization of longitudinal fins considering all non-linearity effects.
+    * Advisor: Dr. Debasis Barman (debasis.barman@nsec.ac.in)
+* **Industrial Trainee**, (June 2016 - July 2016)
+  * _Brake Block Manufacturing Plant, Wabtec Texmaco Rail Private Ltd._
+
+
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<style>
+.collapsible {
+  background-color: #d6d6f7;
+  color: $primary-color;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  font-family: $global-font-family;
+}
+  
+.collapsible .collapsible {
+  margin: 5px;
+}
+
+.active, .collapsible:hover {
+  background-color: #bebee6;
+}
+
+.collapsible:after {
+  content: '\2B17'; 
+  font-size: 20px;
+  color: $primary-color;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2B19"; 
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out;
+  background-color: $primary-background;
+}
+</style>
+</head>
+
+
+Publications
+======
+<body>
+<!--<button type="button" class="collapsible"><h1>Publications</h1></button>
+<div class="content">-->
+<button type="button" class="collapsible"><b><i class='fas fa-book-open' style='font-size:12px'></i> Book Chapters</b></button>
+<div class="content">
+  <ol type="1">{% for post in site.publications reversed %}
+    {% if post.artag == "book" %}
+      {% include archive-single-cv.html %}
+    {% endif %}
+  {% endfor %}</ol>
+</div>
+
+<button type="button" class="collapsible"><b><i class='fas fa-file-alt' style='font-size:12px'></i> Journal</b></button>
+<div class="content">
+  <ol type="1">{% for post in site.publications reversed %}
+    {% if post.artag == "journal" %}
+      {% include archive-single-cv.html %}
+    {% endif %}
+  {% endfor %}</ol>
+</div>
+  
+<button type="button" class="collapsible"><b><i class='fas fa-file-alt' style='font-size:12px'></i> Conference Proceedings</b></button>
+<div class="content">
+  <ol type="1">{% for post in site.publications reversed %}
+    {% if post.artag == "conference" %}
+      {% include archive-single-cv.html %}
+    {% endif %}
+  {% endfor %}</ol>
+</div>
+  
+<button type="button" class="collapsible"><b><i class='fas fa-file-alt' style='font-size:12px'></i> Under Review</b></button>
+<div class="content">
+  <ol type="1">{% for post in site.publications reversed %}
+    {% if post.artag == "review" %}
+      {% include archive-single-cv.html %}
+    {% endif %}
+  {% endfor %}</ol>
+</div>
+<!--</div>-->
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+</body>
+
+
+ 
+ 
+Awards & Honours
+======
+* Recipient of **Engineering Graduate Fellowship** (Spring 2022) 
+  * for presenting technical presentation at INFORMS Optimization Society Conference, 2022.
+* Recipient of **CIDSE Doctoral Fellowship** (Summer 2021)
+* Recipient of **CIDSE Doctoral Fellowship** (Summer 2020)
+* **University Medal** (Dec 2018) - _Awarded by Jadavpur University_
+  * for standing first in order of merit in Production Engineering, at the Bachelor of Engineering Examination, 2018)
+* Recipient of **CIDSE Doctoral Fellowship** (2018-2019)
+* **Meera Rani Mitra Memorial Award** (Jan 2018) - _Awarded by Alumni Association NCE Bengal and Jadavpur University_
+  * for securing highest marks in Production Engineering department, in the third year university examination held in 2017).
+* **Indu Bhushan Putatunda and Shanti Sudha Putatunda Memorial Award** (Dec 2016) - _Awarded by Alumni Association NCE Bengal and Jadavpur University_
+  * for securing highest marks in Production Engineering department, in the second year university examination held in 2016
+* Recipient of **TATA Steel Millennium Scholarship** (2014-2018)
+* **Certificate of Merit** (May 2014) - _Awarded by Kendriya Vidyalaya Sangathan_
+  * for securing position in the top 1.5% of K.V.S. students in the All India Senior School Certificate Examination 2014, conducted by CBSE.
+
+Technical Skills
+======
+Mixed-integer programming, network structures and algorithms, graphs, modeling techniques.
+
+Software Skills
+======
+* _Optimization_ : CPLEX, Gurobi
+* _Programming_ : Python, AMPL, MATLAB, C++, Lindo
+* _Statistical Package_ : Minitab, Excel
+* _Representation_ : Latex, Origin Pro, Ms Office
+
+<!-- {% include skills.html %} -->
+
+
+Teaching
+======
+* **Graduate Teaching Assistant** (Aug 2018 - May 2020)
+  * _School of Computing, Informatics and Decision Systems Engineering, ASU, USA._
+    * Spring 2020 - IEE 380 - Probability and Statistics for engineering Problem Solving (Instructor - Dr. Michael Clough).
+    * Fall 2019 - IEE 380 - Probability and Statistics for engineering Problem Solving (Instructor - Dr. Michael Clough).
+    * Spring 2019 - IEE 380 - Probability and Statistics for engineering Problem Solving (Instructor - Dr. Linda Chattin).
+    * Fall 2018 - IEE 380 - Probability and Statistics for engineering Problem Solving (Instructor - Dr. Linda Chattin).
+* **Graduate Teaching Intern** (Aug 2019 - Dec 2019)
+  * _School of Computing, Informatics and Decision Systems Engineering, ASU, USA._
+    * IEE 620 - Optimization I - (Advisor - Dr. Jorge Sefair)
+
+Graduate Coursework (some selected)
+======
+* Spring 2021
+  * Computational Statistics (STP 540)
+  * Reliability Engineering (IEE 572)
+* Fall 2020
+  * Combinatorial Algorithms and Intractability (CSE 550))
+  * Statistical Learning for Data Mining (IEE 520)
+* Spring 2020
+  * Modeling with Game Theory (AML 591)
+  * Bio-inspired AI and Optimization (IEE 598)
+* Fall 2019
+  * Foundation of Algorithms (CSE 551)
+  * Graph Theory 1 (MAT 516)
+* Spring 2019
+  * Optimization II (IEE 622)
+  * Network Flow and Algorithms (IEE 598)
+  * Foundation of Information Systems (IEE 605)
+* Fall 2018
+  * Optimization I (IEE 620)
+  * Probability and Stochastic Processes (IEE 640)
+  * Mathematical Statistics (IEE 670)
+
