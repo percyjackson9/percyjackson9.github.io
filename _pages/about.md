@@ -14,5 +14,19 @@ I have done my Bachelors in Production Engineering from Jadavpur University, and
 
 Recent Developments:
 <body>
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6927022862142758912" height="871" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+  <ol type="1">
+  {% for post in site.news reversed %}
+    {% if post.title == "Conference" %}
+      <p>{{post.date }} (Conference): <i>{{ post.excerpt }}</i></p>
+    {% elsif post.title == "Internship" %}
+      <p>{{post.date }} (Internship): <i>{{ post.excerpt }}</i></p>
+  {% endfor %}
+  </ol>
 </body>
+
+
+
+<!--
+<body>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6927022862142758912" height="871" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+</body> -->
