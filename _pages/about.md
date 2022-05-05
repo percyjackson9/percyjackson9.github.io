@@ -12,6 +12,7 @@ I am a PhD student in the Industrial Engineering department, Arizona State Unive
 I have done my Bachelors in Production Engineering from Jadavpur University, and graduated in June 2018. During the course of 4 years, I have worked under the guidance of Dr. Shankar Chakraborty, in the field of optimization and decision making. During the Summer of 2017, I worked under Dr. Dipayan Sanyal, Chief Scientist, CSIR-CGCRI, studying and analysing the machinability of Alumina ceramics. My research interests are in Operations Research, with focus on algorithms and optimization.
 
 
+Recent Developments:
 <body>
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6927022862142758912" height="871" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 </body>
