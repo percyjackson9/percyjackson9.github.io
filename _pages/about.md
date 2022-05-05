@@ -14,6 +14,7 @@ I have done my Bachelors in Production Engineering from Jadavpur University, and
 
 Recent Developments:
 <body>
+  <div class="archive__item-title" itemprop="headline">
   <ol type="1">
   {% for post in site.news reversed %}
     {% if post.title == "Conference" %}
@@ -24,6 +25,7 @@ Recent Developments:
     {% endif %}
   {% endfor %}
   </ol>
+  </div>
 </body>
 
 
