@@ -7,7 +7,7 @@ redirect_from:
   - /blog
 ---
 
-
+Hi there!
 <body>
   <div class="archive__item-title" itemprop="headline">
   <ol type="1">
