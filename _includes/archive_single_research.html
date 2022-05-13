@@ -63,19 +63,20 @@
       {% endif %}
       <br>
       {% if post.url %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">Read More</a>
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">Read more here</a>
       {% endif %}
       <!--
       {% if post.paperurl %}
         <a href="{{ post.paperurl }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true">Read more</i></a>
       {% endif %}
-      -->
+      
       {% if post.code %}
         <a href="{{ post.code }}"><i class="fas fa-fw fa-code zoom" aria-hidden="true"></i></a>
       {% endif %}
       {% if post.github %}
         <a href="{{ post.github }}"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i></a>
       {% endif %}
+      -->
       </p>
     
     <!-- Research output code ends here -->
@@ -83,7 +84,7 @@
     {% elsif post.collection == 'posts' and post.date %}
       <p class="page__date"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
     {% endif %}
-    
+    <!--
     {% if post.excerpt and post.collection == 'research' and site.read_more != 'enabled' %}
       <p class="archive__item-excerpt" itemprop="description">
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">
@@ -105,6 +106,6 @@
         </p>
       </p>
     {% endif %}
-    
+    -->
   </article>
 </div>
