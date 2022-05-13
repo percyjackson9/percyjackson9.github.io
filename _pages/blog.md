@@ -13,7 +13,7 @@ redirect_from:
   <ol type="1">
     {% for post in site.blog reversed %}
       {% if post.artag=="blog" %}
-         {% include archive_single_research.html %}
+         {% include archive_single_blog.html %}
       {% endif %}
     {% endfor %}</ol>
   </div>
