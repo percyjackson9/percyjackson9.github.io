@@ -17,7 +17,7 @@
 <div class="{{ include.type | default: "list" }}__item">
   <p class="archive__item-title" itemprop="headline">
     {% if post.excerpt %}
-      <blockquote>{{ post }}</blockquote>
+      <blockquote>{{ post.excerpt }}</blockquote>
     {% endif %}
   </p>
 </div>
