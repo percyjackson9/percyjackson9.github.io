@@ -8,6 +8,6 @@ abstract: "In this project, we present an exact algorithm to solve the relay nod
 
 ---
 
-**Abstract**
-
+Abstract
+----
 In this project, we present an exact algorithm to solve the relay node placement problem in wireless sensor networks.
