@@ -17,14 +17,17 @@ main:
   - title: "Research"
     url: /research/
     
-  - title: "CV"
-    url: /cv/
-   
   - title: "Contact"
     url: /contact/
     
   - title: "Extra Curriculars"
     url: /extrac/
+    
+  - title: "CV"
+    url: /cv/
+    
+  - title: "Blog"
+    url: /blog/
     
   #- title: "Testing"
   #  url: /test/
