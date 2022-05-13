@@ -8,6 +8,6 @@ abstract: "In this project, we present a polynomial time algorithm to solve maxi
 
 ---
 
-**Abstract
+**Abstract**
 
 In this project, we present a polynomial time algorithm to solve maximum capacity path problem
