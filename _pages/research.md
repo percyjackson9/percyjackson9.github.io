@@ -13,7 +13,7 @@ My current research focuses on large scale optimization of network models using 
   <div class="archive__item-title" itemprop="headline">
   <ol type="1">
     {% for post in site.research reversed %}
-      {% if post.collection=="research" %}
+      {% if post.artag=="research" %}
       <p>Is this working?</p>
          {% include archive_single_research.html %}
       {% endif %}
