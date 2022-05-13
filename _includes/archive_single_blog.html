@@ -1,0 +1,23 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+  {% assign venue = post.venue | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+  {% assign venue = post.venue %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <p class="archive__item-title" itemprop="headline">
+    {% if post.excerpt %}
+      <blockquote>{{ post }}</blockquote>
+    {% endif %}
+  </p>
+</div>
