@@ -48,7 +48,7 @@
     {% elsif post.collection == 'research' %}
       {% if post.abstract %}
         <details><summary>Abstract</summary>
-          <p>{{ post.abstract }}</p>
+          <blockquote><p>{{ post.abstract }}</p></blockquote>
         {% if post.url %}
           <a href="{{ base_path }}{{ post.url }}" rel="permalink">Read more here</a>
         {% endif %}
