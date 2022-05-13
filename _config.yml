@@ -195,7 +195,7 @@ collections:
   news:
     output: true
     permalink: /:collection/:path/
-  posts:
+  blog:
     output: true
     permalink: /:collection/:path/
 
@@ -259,6 +259,15 @@ defaults:
   - scope:
       path: ""
       type: research
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _blog
+  - scope:
+      path: ""
+      type: blog
     values:
       layout: single
       author_profile: true
