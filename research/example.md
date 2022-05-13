@@ -2,7 +2,7 @@
 title: "Conflict preemption"
 layout: single-portfolio
 excerpt: "<img src='/images/research/epr.png' alt=''>"
-collection: research
+collection: example
 order_number: 10
 header: 
   og_image: "research/epr.png"
