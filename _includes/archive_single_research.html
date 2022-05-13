@@ -34,7 +34,7 @@
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
-    <!--</h2>-->
+    </h2>
     
     {% if post.read_time %}
     {% elsif post.read_time and post.collection == 'posts' %}
@@ -53,7 +53,6 @@
         {{ post.abstract }}
         </p>
         </blockquote>
-        <br>
         {% if post.url %}
           <a href="{{ base_path }}{{ post.url }}" rel="permalink">Read more here</a>
         {% endif %}
@@ -79,7 +78,7 @@
       {% endif %}
       -->
       </p>
-    </h2>
+   
     <!-- Research output code ends here -->
     
     {% elsif post.collection == 'posts' and post.date %}
