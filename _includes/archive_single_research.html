@@ -53,6 +53,10 @@
         {{ post.abstract }}
         </p>
         </blockquote>
+        <br>
+        {% if post.url %}
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">Read more here</a>
+        {% endif %}
         </details>
       {% endif %}
       
@@ -61,10 +65,7 @@
       {% if post.citation %}
         {{ post.citation }}
       {% endif %}
-      <br>
-      {% if post.url %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">Read more here</a>
-      {% endif %}
+            
       <!--
       {% if post.paperurl %}
         <a href="{{ post.paperurl }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true">Read more</i></a>
