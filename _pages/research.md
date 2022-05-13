@@ -11,8 +11,12 @@ My current research focuses on large scale optimization of network models using 
 
 <body>
   <div class="archive__item-title" itemprop="headline">
-  <ol type="1">{% for post in site.research reversed %}
-       {% include archive_single_research.html %}
+  <ol type="1">
+    {% for post in site.research reversed %}
+      {% if post.collection=="research" %}
+      <p>Is this working?</p>
+         {% include archive_single_research.html %}
+      {% endif %}
     {% endfor %}</ol>
   </div>
 </body>
