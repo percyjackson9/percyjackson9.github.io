@@ -33,6 +33,8 @@
     {% if post.artag == "journal" %}
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}{{ venue }}</a><a href="{{ base_path }}{{ post.url }}" rel="permalink"> <i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% elsif post.volume == 0 %}
+        <p>{{ post.authors }} <b>{{ post.title }}</b>, <i>{{ post.venue }}</i>, ({{post.year}}) <a href="{{ base_path }}{{ post.url }}" rel="permalink">[Click Here]</a></p>
       {% else %}
         <p>{{ post.authors }} <b>{{ post.title }}</b>, <i>{{ post.venue }}</i>, Vol. {{post.volume }}, pp. {{post.pages}} ({{post.year}}) <a href="{{ base_path }}{{ post.url }}" rel="permalink">[Click Here]</a></p>
       {% endif %}
@@ -56,6 +58,8 @@
     {% if post.artag == "review" %}
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}{{ venue }}</a><a href="{{ base_path }}{{ post.url }}" rel="permalink"> <i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      (% elsif post.reviewtype contains "Accept" %}
+        <p>{{ post.authors }} <b>{{ post.title }}</b>, <i>{{ post.venue }}</i>, ({{post.year}}) ({{post.reviewtype}})</p>
       {% else %}
         <p>{{ post.authors }} <b>{{ post.title }}</b>, <i>{{ post.venue }}</i>, ({{post.year}}) (Under {{post.reviewtype}})</p>
       {% endif %}
