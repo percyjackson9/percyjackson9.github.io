@@ -91,7 +91,7 @@
 
 .list__item {
   @include breakpoint($medium) {
-    padding-right: $right-sidebar-width-narrow;
+    padding-right: 0em; /* $right-sidebar-width-narrow; */
   }
 
   @include breakpoint($large) {
@@ -99,7 +99,7 @@
   }
 
   @include breakpoint($x-large) {
-    padding-right: $right-sidebar-width-wide;
+    padding-right: 0em; /* $right-sidebar-width-wide; */
   }
 
   .page__meta {
