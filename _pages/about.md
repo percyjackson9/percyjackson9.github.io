@@ -17,6 +17,7 @@ Recent Developments:
   <div class="archive__item-title" itemprop="headline">
   <ol type="1">
   {% for post in site.news reversed %}
+    <li>
     {% if post.title == "Conference" %}
     <p><b>({{post.day}}, {{post.month}} {{post.year}}) (Conference):</b> <i>{{ post.excerpt }}</i></p>
     {% elsif post.title == "Internship" %}
@@ -24,6 +25,7 @@ Recent Developments:
     {% else %}
       <p>Correct error!</p>
     {% endif %}
+    </li>
   {% endfor %}
   </ol>
   </div>
