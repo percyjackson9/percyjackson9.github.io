@@ -4,7 +4,7 @@ artag: "journal"
 collection: publications
 permalink: /publication/paper7
 reviewtype: "Accepted"
-excerpt: 'The paper presents a polynomial time algorithm for the continous maximum capacity path interdiction problem.'
+excerpt: 'The paper presents the first polynomial time algorithm for the continous maximum capacity path interdiction problem.'
 date: 2022-05-14
 authors: "J. Tayyebi, A. Mitra, J. Sefair,"
 venue: "European Journal of Operational Research"
