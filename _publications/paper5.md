@@ -6,7 +6,7 @@ collection: publications
 permalink: /publication/paper5
 excerpt: 'In this chapter, an almost unexplored meta-heuristic in the form of shuffled frog leaping algorithm is adopted for both single and multi-objective optimization of the responses for two LBM processes'
 date: 2017-01-01
-authors: "S. Chakraborty, K.R. Ramakrishnan, A. Mitra,"
+authors: "A. Mitra, S. Chakraborty"
 editors: "B. Benhala et. al."
 publisher: "Nova Science Publishers Inc"
 ISBN: "978-1-53612-452-1"
