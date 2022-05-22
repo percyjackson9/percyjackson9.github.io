@@ -9,6 +9,8 @@ authors: "A. Mitra, R. Pan,"
 venue: "2022 Proceedings of Annual Reliability and Maintainability Symposium, IEEE"
 year: "2022"
 paperurl: 'https://par.nsf.gov/biblio/10298649'
+citation: 'Mitra, A, and Pan, R. (2022) "Early prediction of lithium-ion battery cycle life by machine learning methods". 2022 Proceedings of Annual Reliability and Maintainability Symposium, IEEE'
+doi: 'https://par.nsf.gov/biblio/10298649'
 
 ---
 The paper will be publicly accesible on August 2022 at the paper-link.
