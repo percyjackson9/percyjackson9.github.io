@@ -11,6 +11,8 @@ volume: "14(2)"
 pages: "339-359"
 year: "2019"
 paperurl: 'http://percyjackson9.github.io/files/chakraborty2019.pdf'
+citation: 'Chakraborty, S. and Mitra, A. (2019), "A hybrid multi-criteria decision-making model for optimal coal blending", Journal of Modelling in Management, Vol. 14 No. 2, pp. 339-359.'
+doi: 'https://doi.org/10.1108/JM2-08-2018-0112'
 
 ---
 Purpose
