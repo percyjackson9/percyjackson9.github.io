@@ -12,6 +12,8 @@ volume: "0"
 pages: "339-359"
 year: "2022"
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0377221722004027'
+citation: 'Javad Tayyebi, Ankan Mitra, Jorge A. Sefair (2022) "The continuous maximum capacity path interdiction problem", European Journal of Operational Research'
+doi: 'https://doi.org/10.1016/j.ejor.2022.05.028'
 
 ---
 
