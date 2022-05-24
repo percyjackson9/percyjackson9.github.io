@@ -12,6 +12,7 @@ publisher: "Nova Science Publishers Inc"
 ISBN: "978-1-53612-452-1"
 pages: "21–44"
 year: "2017"
+paperurl: 'http://percyjackson9.github.io/files/ankanbookchap.pdf'
 citation: 'A. Mitra and S. Chakraborty, "Parametric optimisation of laser beam machining processes using shuffled frog leaping algorithm", in Focus in Swarm Intelligence Research and Applications, Nova Science Publishers Inc, pp. 21-44'
 doi: 'https://novapublishers.com/shop/focus-on-swarm-intelligence-research-and-applications/'
 
