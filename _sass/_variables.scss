@@ -68,6 +68,7 @@ $info-color                 : $dark-gray;
 
 /* brands */
 $lavender                   : #E6E6FA;
+$pistachio                  : #B2D3C2
 $ghost-white                : #F8F8FF;
 $behance-color              : #1769FF;
 $dribbble-color             : #ea4c89;
@@ -99,7 +100,7 @@ $masthead-link-color        : mix(#000, $primary-color, 50%);
 $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
 
 /* background */
-$primary-background         : $lavender;
+$primary-background         : $pistachio;
 $masthead-header            : mix(#000, $primary-background, 10%);
 $masthead                   : $masthead-header;
 $page-body                  : $primary-background;
