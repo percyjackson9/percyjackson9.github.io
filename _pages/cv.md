@@ -38,6 +38,10 @@ Experience
   * _Department of Industrial Engineering, Arizona State University, USA._
     * Topics: Large scale optimization of network models using combinatorial algorithms.
     * Advisor: Dr. Jorge Sefair.
+* **Analytics and Innovation Intern**, (May 2022 - Aug 2022)
+  * _Network Strategy and Planning, Analytics and Innovation, United Airlines, USA._
+    * Responsibilites: Explore ways to accelerate existing algorithms for fleet assignment model.
+    * Supervisor: Abhishek Kumar.
 * **Summer Research Intern**, (May 2017 - July 2017)
   * _Non-oxide Ceramics and Composites Division, CSIR - Central Glass and Ceramic Research Institute, INDIA._
     * Project: Study of machinability of sintered alumina and analysis using Grey-Fuzzy logic.
