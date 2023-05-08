@@ -18,7 +18,7 @@ Recent Developments:
   <ol type="1">
   {% for post in site.news reversed %}
     <li>
-    <p><b>({{post.day}}, {{post.month}} {{post.year}}) ({{post.title}}):</b> <i>{{ post.excerpt }}</i></p>
+    <p><b>({{post.day}} {{post.month}}, {{post.year}}) ({{post.title}}):</b> <i>{{ post.excerpt }}</i></p>
     </li>
   {% endfor %}
   </ol>
