@@ -14,9 +14,9 @@ For a PDF copy of my CV, <u><a href="https://percyjackson9.github.io/files/Curre
 Education
 ======
 * **Arizona State University**, Tempe, USA.
-  * **Doctor of Philosophy**, in Industrial Engineering, 2023 (expected)
-    * GPA: 4.00/4 (till Spring 2022)
-    * Topic: Large scale optimization of network models using combinatorial algorithms.
+  * **Doctor of Philosophy**, in Industrial Engineering, 2023
+    * GPA: 4.00/4
+    * Dissertation: Exact Optimization Models and Algorithms for Large-scale Location and Interdiction Problems with Underlying Network Structure.
   * **Master of Science**, in Industrial Engineering, 2020
     * GPA: 3.92/4
 * **Jadavpur University**, Kolkata, INDIA.
@@ -34,7 +34,9 @@ Education
 
 Experience
 ======
-* **Graduate Researcher**, (May 2019 - present)
+* **Senior Data Scientist**, (June 2023 - Present)
+  * _Analytics and Innovation, United Airlines, USA._
+* **Graduate Researcher**, (May 2019 - May 2023)
   * _Department of Industrial Engineering, Arizona State University, USA._
     * Topics: Large scale optimization of network models using combinatorial algorithms.
     * Advisor: Dr. Jorge Sefair.
