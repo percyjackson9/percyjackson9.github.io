@@ -18,13 +18,7 @@ Recent Developments:
   <ol type="1">
   {% for post in site.news reversed %}
     <li>
-<!--     {% if post.title == "Conference" %} -->
     <p><b>({{post.day}}, {{post.month}} {{post.year}}) ({{post.title}}):</b> <i>{{ post.excerpt }}</i></p>
-<!--     {% elsif post.title == "Internship" %}
-    <p><b>({{post.day}}, {{post.month}} {{post.year}}) (Internship):</b> <i>{{ post.excerpt }}</i></p>
-    {% else %}
-      <p>Correct error!</p>
-    {% endif %} -->
     </li>
   {% endfor %}
   </ol>
