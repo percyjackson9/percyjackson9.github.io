@@ -7,8 +7,7 @@ redirect_from:
   - /contact
 ---
 
-Industrial Engineering Department, Arizona State University, Tempe Campus,  
-Brickyard Engineering, 699 S Mill Ave, Tempe, AZ 85281  
-3rd Floor
+233 South Wacker Drive, Chicago, Illinois - 60606  
+13th Floor
 
 **Official Email**: amitra16 [at] asu [dot] edu
